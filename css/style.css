@@ -14,9 +14,6 @@ body {
     align-items: center;
     margin-bottom: 100px;
 }
-.debug {
-    border: 1px solid black;
-}
 
 /* HEADER  */
 header {
@@ -29,6 +26,7 @@ header {
     height: 70px;
     margin: 0 auto;
     padding-top: 5px;
+    
 }
 .logo img {
     width: 150px;
@@ -154,4 +152,19 @@ h4 {
 .foot-right i {
     font-size: 18px;
     padding-right: 5px;
+}
+
+/* EFFETTI  */
+
+.first-pic {
+    display: block;
+}
+.second-pic {
+    display: none;
+}
+.model-box:hover .first-pic {
+    display: none;
+}
+.model-box:hover .second-pic {
+    display: block;
 }
