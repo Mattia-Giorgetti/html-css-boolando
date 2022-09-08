@@ -186,7 +186,7 @@ h4 {
 }
 
 .foot-right i {
-    font-size: 18px;
+    font-size: 22px;
     padding-right: 5px;
 }
 
@@ -210,4 +210,18 @@ h4 {
 
 .heart:hover {
     color: red;
+    cursor: pointer;
+}
+
+.categories span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.foot-left a:hover {
+    text-decoration: underline;
 }
