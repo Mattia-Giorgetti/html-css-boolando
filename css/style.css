@@ -200,11 +200,11 @@ h4 {
     display: none;
 }
 
-.model-box:hover .first-pic {
+.img-wrap:hover .first-pic {
     display: none;
 }
 
-.model-box:hover .second-pic {
+.img-wrap:hover .second-pic {
     display: block;
 }
 
